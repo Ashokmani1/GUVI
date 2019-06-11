@@ -15,4 +15,4 @@ a1=int(input())
 a2=int(input())
 for i in range(a1+1,a2):
   if prime(i):
-    print(i)
+    print(i,end=' ')
