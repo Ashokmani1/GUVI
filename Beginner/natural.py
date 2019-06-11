@@ -1,2 +1,2 @@
-a=int(input())
-print((a*(a+1))/2)
+a1=int(input())
+print((a1*(a1+1))/2)
