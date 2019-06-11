@@ -7,8 +7,9 @@ def arm(s):
     return True
   else:
     return False
- a=int(input())
- if arm(a):
+  
+a=int(input())
+if arm(a):
   print("yes")
 else:
   print("no")
