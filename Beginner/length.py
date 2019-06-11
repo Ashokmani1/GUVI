@@ -1,1 +1,2 @@
-print(len(input()))
+a3=input()
+print(len(a3))
