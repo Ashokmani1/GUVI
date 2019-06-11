@@ -10,9 +10,9 @@ def prime(a1):
       break
   if x==0:
     return True
-  
-a1=int(input())
-a2=int(input())
+a3=list(map(int,input().split()))
+a1=a3[0]
+a2=a3[1]
 for i in range(a1+1,a2):
   if prime(i):
     print(i,end=' ')
