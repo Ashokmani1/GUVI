@@ -7,5 +7,5 @@ for i in range(2,int(math.sqrt(a1))):
   if a1%i==0:
     print("no")
     x=x+1
- if x==0:
+if x==0:
   print("yes")
