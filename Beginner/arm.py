@@ -1,8 +1,8 @@
 def arm(s):
-  s=list(s)
+  a2=str(s)
   x=0
-  for i in range(len(s)):
-    x=x+s[i]**3
+  for i in range(len(a2)):
+    x=x+int(a2[i])**3
   if x == s:
     return True
   else:
