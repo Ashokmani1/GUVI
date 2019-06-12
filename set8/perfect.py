@@ -1,5 +1,5 @@
 a1=list(map(int,input().split()))
-i=1
+i=0
 x=0
 while True:
    if (a1[1] * a1[0])  == (i*i):
