@@ -10,6 +10,6 @@ for i in range(0,len(a1)):
     x=x+1
     break
 if x==2:
-  print("yes")
+  print("Yes")
 else:
-  print("no")
+  print("No")
