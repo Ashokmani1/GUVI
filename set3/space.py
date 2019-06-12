@@ -1,2 +1,2 @@
-a1=input().split()
-print(len(a1)-1)
+a7=input().split()
+print(len(a7)-1)
