@@ -2,7 +2,7 @@ a3=[]
 a3.append(1)
 a3.append(1)
 a4=int(input())
-if a3 <3:
+if a4 <3:
   print(a3[0])
 else:
   for i in range(2,a4):
