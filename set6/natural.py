@@ -1,2 +1,2 @@
-a1=int(input())
-print((a1*(a1+1))/2)
+a5=int(input())
+print((a5*(a5+1))/2)
