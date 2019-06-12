@@ -1,7 +1,7 @@
     
-e1=input()
-l1=[]
-for i in e1:
+e12=input()
+l12=[]
+for i in e12:
     if(i.isnumeric()):
-           l1.append(i)
-print(*l1,sep="")
+           l12.append(i)
+print(*l12,sep="")
