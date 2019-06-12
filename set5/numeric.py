@@ -1,2 +1,2 @@
-a1=input()
-print(len(a1))
+a4=input()
+print(len(a4))
