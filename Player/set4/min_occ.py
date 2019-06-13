@@ -1,5 +1,8 @@
-a1 = list(input())
-for i in a1:
-    if i != ' ':
-        if a1.count(i) == 1:
-            print(i.lower(),end=' ')
+
+import string
+a=input()
+a.split()
+a=a.replace(" ","")
+b=[i for i in a if a.count(i)==1]
+c=' '.join(b)
+print(c.lower())
