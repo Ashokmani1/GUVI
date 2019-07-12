@@ -6,7 +6,7 @@ c=0
 k=0
 for i in range(0,a1):
     for j in range(0,a1):
-        if e[i][j]==1:
+        if a2[i][j]==1:
             if i!=a1-1 and a2[i+1][j]==0:
                 c=c+1
             if j!=a1-1 and a2[i][j+1]==0:
