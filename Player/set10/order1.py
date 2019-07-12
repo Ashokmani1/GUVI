@@ -1,3 +1,5 @@
-a1=input().split()
-a1 = [::-1]
-print(a1[0][int(a1[1])-1]
+n1,p1,k=map(str,input().split())
+p=int(p1)
+k=int(k)
+res=n1[k:]
+print(res[p-1])
