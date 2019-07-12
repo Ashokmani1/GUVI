@@ -10,6 +10,6 @@ mm=int(input())
 if mm==0:
     mm=1
 c=[]
-for i in range(mmm):
+for i in range(mm):
     c.append(catalan(i))
 print(*c)
