@@ -7,7 +7,7 @@ for i in range(n1):
     for i in s1:
         if i in v:
             cnt+=1 
-    a.append([s,cnt])
+    a.append([s1,cnt])
     cnt=0
 a.sort(key=lambda x:x[1],reverse=True)
 for i in range(n1):
