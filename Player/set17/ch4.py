@@ -7,7 +7,7 @@ for i in range(len(n1)):
             s=n1.count(n1[i])
             f1=[n1[i]]
         elif s==n1.count(n1[i]):
-            f.append(n1[i])
+            f1.append(n1[i])
 k="".join(f1)
 print(s,end=" ")
 print(k)
