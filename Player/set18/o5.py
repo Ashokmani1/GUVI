@@ -1,0 +1,5 @@
+n1,k1=list(map(str,input().split()))
+n1=list(set(n1))
+k1=list(set(k1))
+if len(n1)==len(k1): print("true")
+else: print("false")
