@@ -3,5 +3,5 @@ p=[]
 for i in range(b1):
   s1=set(map(int,input().split()))
   p.append(s1)
-ro=s.intersection(*p)
+ro=s1.intersection(*p)
 print(*ro)
