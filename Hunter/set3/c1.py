@@ -2,7 +2,7 @@ row1,col1 = map(int,input().split())
 b1 = []
 c1 = []
 for i in range(row1):
-	b.append(list(map(int,input().split())))
+	b1.append(list(map(int,input().split())))
 for i in b1:
 	if 0 in i:
 		for j in range(len(i)):
