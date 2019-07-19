@@ -16,4 +16,4 @@ for x in k:
         
 s="".join(map(str,p))
 
-print(s[1:]
+print(s[1:])
