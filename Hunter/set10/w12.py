@@ -5,7 +5,7 @@ for i in range(2,N1):
         if i%j==0:
             break
         else:
-            if i%j!=0 and i+j==N:
+            if i%j!=0 and i+j==N1:
                 b=str(j)+' '+str(i)
                 s.append(str(b))
 print(s[-1])
